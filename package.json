@@ -1,0 +1,18 @@
+{
+  "name": "label-studio-export-dataset-zipper",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "zip": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "archiver": "^7.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
